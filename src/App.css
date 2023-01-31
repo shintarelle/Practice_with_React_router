@@ -1,0 +1,22 @@
+.users-wrapper {
+  background-color: cadetblue;
+  display: flex;
+  padding: 20px;
+  gap: 3%;
+}
+
+.list-users {
+  width: 30%;
+  background-color: antiquewhite;
+}
+.user-albums {
+  background-color: beige;
+  width: 30%;
+}
+
+.user-photo {
+  background-color: aliceblue;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
