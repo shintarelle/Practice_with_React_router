@@ -6,17 +6,26 @@
 }
 
 .list-users {
+  padding: 30px;
   width: 30%;
   background-color: antiquewhite;
 }
 .user-albums {
   background-color: beige;
-  width: 30%;
+  width: 37%;
 }
 
 .user-photo {
   background-color: aliceblue;
-  width: 30%;
+  width: 60%;
+}
+.user-photo-list {
+  padding: 15px;
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
+}
+.photo {
+  width: 150px;
+  height: 150px;
 }
